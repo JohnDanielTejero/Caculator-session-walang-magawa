@@ -112,7 +112,9 @@ function App() {
                   <div className='col-12'>
                     <div className='form-floating'>
                       <input className='form-control w-100' id = "answer" disabled  value = {operator == null ? parseFloat(firstNum) : parseFloat(secondNum)}></input>
-                      <label htmlFor='answer'>Answer</label>
+                      <label htmlFor='answer'>
+                        {operator != null ? parseFloat(firstNum) + "".concat(" ".concat(operator)) : ""}
+                      </label>
                     </div>
                   </div>
                   <div className='col-12'>

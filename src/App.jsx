@@ -105,9 +105,9 @@ function App() {
 
   return (
     <div className="App">
-        <div className = "container">
-            <div className='card p-0' style={{width:"100%"}}>
-              <div className='card-body' style={{minHeight:"30rem", width:"30rem"}}>
+        <div className="bg-light">
+            <div className='card p-0' style={{width:"100%", height: "100%"}}>
+              <div className='card-body' style={{minHeight:"100%", minWidth:"100%"}}>
                 <div className='row g-2 p-0'>
                   <div className='col-12'>
                     <div className='form-floating'>
@@ -119,72 +119,72 @@ function App() {
                   </div>
                   <div className='col-12'>
                   <div className='row g-2 p-0 py-1 w-100 justify-content-center'>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3'>
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator" data-operators = "C">C</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3'>
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator" data-operators = "%">%</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator" data-operators = "Del">Del</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator" data-operators = "/">/</button>
                         </div>
                     </div>
                     <div className='row g-2 p-0 py-1 w-100 justify-content-center'>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "7">7</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "8">8</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "9">9</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                         <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator"data-operators = "*">*</button>
                         </div>
                     </div>
                     <div className='row g-2 p-0 py-1 w-100 justify-content-center'>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "4">4</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "5">5</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "6">6</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator"data-operators = "-">-</button>
                         </div>
                     </div>
                     <div className='row g-2 p-0 py-1 w-100 justify-content-center'>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "1">1</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "2">2</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "3">3</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator"data-operators = "+">+</button>
                         </div>
                     </div>
                     <div className='row g-2 p-0 py-1 w-100 justify-content-center'>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator"data-operators = "negate">+/-</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = "0">0</button>
                         </div>
-                        <div className='col-3' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "num" data-num = ".">.</button>
                         </div>
-                        <div className='col-6' style={{height:"6rem", width: "6rem"}}>
+                        <div className='col-3' >
                           <button onClick={handleClick} className='btn btn-outline-dark w-100 h-100' data-type = "operator"data-operators = "answer">=</button>
                         </div>
                     </div>
